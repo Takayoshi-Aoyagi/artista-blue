@@ -12,9 +12,9 @@
     <link rel="shortcut icon" href="">
   </head>
   <body>
-    <header>
-      <h1 class="h1">株式会社Artista</h1>
-      <h2 class="h5">ソフトウェア開発のエキスパート</h2>
+    <header class="bg-primary">
+      <h1 class="h1 bg-primary" style="margin-top:0px; padding-top:10px; padding-left:10px;">株式会社Artista</h1>
+      <h2 class="h5 bg-primary" style="margin-bottom:0px; padding-bottom:10px; padding-left:10px;">ソフトウェア開発のエキスパート</h2>
     </header>
 
     <nav class="navbar navbar-default">
@@ -25,14 +25,21 @@
 
 	<ul class="nav navbar-nav">
 	  <li><a href="#developments">開発実績</a></li>
-	  <li><a href="#about">会社概要</a></li>
+	  <li><a href="#company">会社概要</a></li>
 	</ul>
       </div>
     </nav>
 
-    <main>
+    <main style="margin:10px;">
+
+      <div class="panel panel-warning">
+	<div class="panel-heading">
+	  ホームページ作成途中です。見難いですがご容赦ください。
+	</div>
+      </div>
+      
       <div id="developments">
-	<h2 class="h4">開発実績</h2>
+	<h2 class="h4 bg-info" style="padding:5px;">開発実績</h2>
 	<p>弊社エンジニアの主な開発実績</p>
 	<ul class="">
 	  <li>大手ISPのネットワーク機器管理システム</li>
@@ -53,28 +60,59 @@
 	  </li>
 	</ul>
 
-	<h2 class="h4">開発言語など</h2>
-	下記にない言語等でも短期間で習得可能です。ご相談ください。
-	<ul>
-	  <li>Java</li>
-	  <li>Python</li>
-	  <li>JavaScript (Node.js含む)</li>
-	  <li>C#</li>
-	  <li>Ruby</li>
-	  <li>Go</li>
-	  <li>C++</li>
-	  <li>C</li>
-	  <li>Shell Script</li>
-	<ul>
-      </div>
+	<p>開発言語など</p>
+	特に開発言語は問いません。未知の環境でも短期間で習得することが可能です。
+	<div>
+	  <div>言語</div>
+	  <div>
+	    <ul class="list-inline">
+	      <li>Java</li>
+	      <li>Python</li>
+	      <li>JavaScript (Node.js含む)</li>
+	      <li>C#</li>
+	      <li>Ruby</li>
+	      <li>Go</li>
+	      <li>C++</li>
+	      <li>C</li>
+	      <li>Shell Script</li>
+	      <li>HTML5</li>
+	    </ul>
+	  </div>
+	  <div>データベース (RDB, NoSQL)</div>
+	  <div>
+	    <ul class="list-inline">
+	      <li>Oracle</li>
+	      <li>SQLServer</li>
+	      <li>MySQL</li>
+	      <li>SQLite</li>
+	      <li>MongoDB</li>
+	      <li>Redis</li>
+	      <li>Hive</li>
+	  </div>
+	</div>
       <div>
-	<h2 class="h4">会社概要</h2>
-	
+	<h2 id="company" class="h4 bg-info" style="padding:5px;">会社概要</h2>
+	<div>
+	  <span>会社名</span>
+	  <span>株式会社Arista（アルティスタ）</span>
+	</div>
+	<div>
+	  <span>所在地</span>
+	  <span>埼玉県北本市石戸8-167-4</span>
+	</div>
+	<div>
+	  <span>役員</span>
+	  <span>代表取締役</span>
+	  <span>青柳恭義</span>
+	</div>
       </div>
     </main>
 
-    <footer>
-      <h3>株式会社Artista</h3>
+    <footer class="bg-primary" style="margin-top:10px; padding-left:10px;">
+      <ul class="list-inline">
+	<li><h3 class="h5">株式会社Artista</h3></li>
+	<li><h3 class="h5">email: aoyagi＠artista.blue</h3></li>
+      </ul>
     </footer>
 
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
