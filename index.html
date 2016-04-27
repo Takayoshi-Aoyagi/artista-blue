@@ -8,27 +8,76 @@
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="x1Vy14l-6cHJh1w7M8dR7syozDqXeRyE13dCIKBaz78" />
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="shortcut icon" href="">
   </head>
   <body>
     <header>
-      <h1>株式会社Artista<h1>
+      <h1 class="h1">株式会社Artista</h1>
+      <h2 class="h5">ソフトウェア開発のエキスパート</h2>
     </header>
 
-    <nav>
-      <ul>
-	<li>TOP</li>
-	<li>サービス</li>
-	<li>会社概要</li>
-      </ul>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+	<div class="nav-header">
+	  <a class="navbar-brand" href="#">HOME</a>
+	</div>
+
+	<ul class="nav navbar-nav">
+	  <li><a href="#developments">開発実績</a></li>
+	  <li><a href="#about">会社概要</a></li>
+	</ul>
+      </div>
     </nav>
 
     <main>
+      <div id="developments">
+	<h2 class="h4">開発実績</h2>
+	<p>弊社エンジニアの主な開発実績</p>
+	<ul class="">
+	  <li>大手ISPのネットワーク機器管理システム</li>
+	  <li>
+	    スーパーコンピュータのカーネル開発
+	  </li>
+	  <li>
+	    ネットワーク機器の設定・モニタリングツールおよび、通信プロトコル開発
+	  </li>
+	  <li>
+	    クラウドストレージのリソース管理デーモン開発
+	  </li>
+	  <li>
+	    Hadoopクラスタの保守運用ツール開発
+	  </li>
+	  <li>
+	    その他多数
+	  </li>
+	</ul>
+
+	<h2 class="h4">開発言語など</h2>
+	下記にない言語等でも短期間で習得可能です。ご相談ください。
+	<ul>
+	  <li>Java</li>
+	  <li>Python</li>
+	  <li>JavaScript (Node.js含む)</li>
+	  <li>C#</li>
+	  <li>Ruby</li>
+	  <li>Go</li>
+	  <li>C++</li>
+	  <li>C</li>
+	  <li>Shell Script</li>
+	<ul>
+      </div>
+      <div>
+	<h2 class="h4">会社概要</h2>
+	
+      </div>
     </main>
 
     <footer>
       <h3>株式会社Artista</h3>
     </footer>
+
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
